@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main align="center">
+      <h2>Permainan Tebak Angka '123'</h2>
+      <div class="column-one">
+        <div class="gameBoard" align="center">
+          <h2>Game Board</h2>
+          <hr />
+          <div class="beforeDisplay" id="beforeDisplay">
+            <p>Tekan tombol 'play' dibawah ini:</p>
+            <button id="play">Bermain</button>
+          </div>
+          <div class="afterDisplay" id="afterDisplay" hidden>
+            <h2>Silahkan menebak angka!</h2>
+            <p>Jawaban Anda:</p>
+            <h1 id="answerDisplay"></h1>
+            <button id="answer-1-btn">1</button>
+            <button id="answer-2-btn">2</button>
+            <button id="answer-3-btn">3</button>
+            <p><span id="showNum"></span>bukanlah jawabanya...</p>
+          </div>
+        </div>
+        <div class="localStats" align="center">
+          <h2>Local Stats</h2>
+          <hr />
+          <p>Jumlah kombinasi yang berhasil ditebak:</p>
+          <span id="jumTebak"></span>
+          <br />
+          <p>Jumlah tebakan salah terbanyak sekali main:</p>
+          <span id="jumSalah"></span>
+          <br />
+          <button id="delData">Hapus semua data</button>
+          <br />
+        </div>
+      </div>
+      <div class="column-two">
+        <div class="sessionStats" align="center">
+          <h2>Game Session Stats</h2>
+          <hr />
+          <p>Jumlah tebakan salah:</p>
+          <p id="showSession"></p>
+        </div>
+        <div class="howtoPlay" align="center">
+          <h2>Cara bermain</h2>
+          <hr />
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <ul>
+            <li>Lorem ipsum dolor,</li>
+          </ul>
+          <ul>
+            <li>Lorem ipsum dolor,</li>
+          </ul>
+          <ul>
+            <li>Lorem ipsum dolor,</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!-- script -->
+    <script src="index.js"></script>
+  </body>
+</html>
